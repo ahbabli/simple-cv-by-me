@@ -1,0 +1,115 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    width:%;
+    margin: ;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 15%, rgba(8,8,110,1) 67%, rgba(9,9,121,1) 78%, rgba(6,67,159,1) 100%, rgba(0,212,255,1) 100%);
+}
+h1{
+    text-align: left;
+    margin-top:10px;
+    color: white;    
+}
+img{
+    border-radius: 15px;
+    width:150px;height:150px ;
+}
+
+.col{
+    margin-bottom: -20px;
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    place-content:center;
+    margin: auto;
+    
+    
+}
+.leftcol{
+    background: rgb(147,187,255);
+background: linear-gradient(90deg, rgba(147,187,255,1) 0%, rgba(147,187,255,1) 0%, rgba(147,187,255,1) 0%, rgba(147,187,255,1) 7%, rgba(115,160,236,1) 55%, rgba(76,138,244,1) 100%, rgba(145,175,227,1) 100%);
+    width: 60%;
+    display: grid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cont{
+    margin:  ;
+}
+h2{
+    color: rgb(10, 10, 146);
+}
+.hh {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    width: 150px;
+    border-radius: 6px;
+    text-align: center
+}
+.rightcol{
+    position: relative;
+    left: -180px;
+    background-color: rgb(207, 222, 248);
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;   
+}
+@media only screen and (max-width: 800px){
+
+
+    h1{
+        text-align: center;
+    }
+    .hh{
+        background-color: blue;
+        width: 150px;
+        border-radius: 6px;
+        text-align: center;
+        
+    }
+
+    img{
+        border-radius: 15px;
+        width:150px;height:150px ;
+        position: relative;
+        left: 100px;
+        margin-top: 20px;
+    }
+    .col{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display:flex;
+        flex-direction: column;
+        
+        
+    }
+    .leftcol{
+        background: rgb(147,187,255);
+    background: linear-gradient(90deg, rgba(147,187,255,1) 0%, rgba(147,187,255,1) 0%, rgba(147,187,255,1) 0%, rgba(147,187,255,1) 7%, rgba(115,160,236,1) 55%, rgba(76,138,244,1) 100%, rgba(145,175,227,1) 100%);
+        width: 90%;
+        height: 600px;
+        display: grid;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .cont{
+        margin:  ;
+    }
+    h2{
+        color: rgb(10, 10, 146);
+    }
+    .hh {
+        color: rgb(255, 255, 255);
+    }
+    .rightcol{
+        margin-top: 10px;
+        position: relative;
+        left: 4px;
+        display: grid;       
+        background-color: rgb(207, 222, 248);
+        width: 90%;
+        height: 300px;
+        padding: 10px;
+        border-radius: 10px;   
+    }
+}
